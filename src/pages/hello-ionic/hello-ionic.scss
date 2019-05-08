@@ -5,9 +5,12 @@ page-hello-ionic {
   }
   .input {
     border-radius: 15px 50px 30px;
-    border: 2px solid red;
+    border: 2px solid color($colors, primary);
     padding: 18px;
     width: 200px;
     height: 58px;
+  }
+  .text-input-md {
+    margin: 0px
   }
 }
