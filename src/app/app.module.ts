@@ -6,11 +6,13 @@ import { MyApp } from './app.component';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { SignupPage } from '../pages/signup/signup';
+import { InputBoxComponent } from '../components/input-box/input-box';
 
 @NgModule({
   declarations: [
     MyApp,
-   SignupPage
+   SignupPage,
+   InputBoxComponent
   ],
   imports: [
     BrowserModule,

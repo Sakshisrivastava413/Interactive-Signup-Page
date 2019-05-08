@@ -6,7 +6,7 @@ import { InputBoxComponent } from '../../components/input-box/input-box';
 @NgModule({
   declarations: [
     SignupPage,
-    InputBoxComponent
+    InputBoxComponent,
   ],
   imports: [
     IonicPageModule.forChild(SignupPage),
