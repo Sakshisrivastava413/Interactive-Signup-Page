@@ -1,12 +1,13 @@
 input-box {
   .input {
     border-radius: 15px 50px 30px;
-    border: 2px solid color($colors, primary);
-    padding: 18px;
-    width: 200px;
+    // border: 2px solid color($colors, primary);
+    padding: 16px;
+    width: 90%;
     height: 58px;
-    color: black;
+    color: color($colors, primary);
     font-size: 1.2em;
+    background: color($colors, input-box-bg)
   }
   .text-input-md {
     margin: 0px
