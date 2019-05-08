@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 /**
  * Generated class for the InputBoxComponent component.
@@ -12,11 +12,10 @@ import { Component } from '@angular/core';
 })
 export class InputBoxComponent {
 
-  text: string;
+  @Input() inputVal: String
 
   constructor() {
     console.log('Hello InputBoxComponent Component');
-    this.text = 'Hello World';
   }
 
 }
