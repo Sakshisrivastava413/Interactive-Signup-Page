@@ -1,3 +1,18 @@
 page-signup {
-
+  .background-image {
+    background: url("../assets/imgs/back.png") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .input {
+    border-radius: 15px 50px 30px;
+    border: 2px solid color($colors, primary);
+    padding: 18px;
+    width: 200px;
+    height: 58px;
+    color: black;
+    font-size: 1.2em;
+  }
+  .text-input-md {
+    margin: 0px
+  }
 }
