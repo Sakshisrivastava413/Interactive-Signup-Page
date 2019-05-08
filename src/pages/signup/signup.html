@@ -1,5 +1,7 @@
-
 <ion-content class="background-image" no-scroll padding>
-  <input-box *ngFor="let inputVal of inputFields" [inputVal]="inputVal"></input-box>
+  <div class="input-main-container">
+    <input-box *ngFor="let inputVal of inputFields" [inputVal]="inputVal">
+    </input-box>
+    <button ion-button color="primary" block class="button">Save & Continue</button>
+  </div>
 </ion-content>
-  
