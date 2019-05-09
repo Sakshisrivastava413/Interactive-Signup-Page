@@ -12,7 +12,8 @@ import { Component, Input } from '@angular/core';
 })
 export class InputBoxComponent {
 
-  @Input() inputVal: String
+  @Input() inputVal: String;
+  @Input() inputType: String
 
   constructor() {
     console.log('Hello InputBoxComponent Component');

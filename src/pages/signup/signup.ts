@@ -16,11 +16,26 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class SignupPage {
 
   inputFields = [
-    'First Name',
-    'Last Name',
-    'Email',
-    'Password',
-    'Confirm Password'
+    {
+      val: 'First Name',
+      type: 'text'
+    },
+    {
+      val: 'Last Name',
+      type: 'text'
+    },
+    {
+      val: 'Email',
+      type: 'email'
+    },
+    {
+      val: 'Password',
+      type: 'password'
+    },
+    {
+      val: 'Confirm Password',
+      type: 'password'
+    },
   ]
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
