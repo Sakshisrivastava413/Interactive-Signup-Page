@@ -1,0 +1,17 @@
+.input {
+  border-radius: 15px 50px 30px;
+  border-left: 2px solid var(--ion-color-primary);
+  border-right: 2px solid var(--ion-color-primary);
+  padding: 16px;
+  width: 100%;
+  height: 52px;
+  color: var(--ion-color-primary);
+  font-size: 1.2em;
+  background: var(--ion-color-input-box);
+}
+.text-input-md {
+  margin: 0px;
+}
+.input-container {
+  margin: 15px 0px;
+}
