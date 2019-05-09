@@ -7,7 +7,7 @@
   <div class="input-main-container">
     <app-input-box *ngFor="let input of inputFields" [inputVal]="input.val" [inputType]="input.type">
     </app-input-box>
-    <button class="button" color="primary">
+    <button class="button" color="primary" (click)="signup()">
       <ion-ripple-effect></ion-ripple-effect>
       Save & Continue
     </button>
