@@ -1,5 +1,5 @@
 {
-  "name": "gym-mobile",
+  "name": "ionicStarWarsApp",
   "integrations": {},
-  "type": "ionic-angular"
+  "type": "angular"
 }
