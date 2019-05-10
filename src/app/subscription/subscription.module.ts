@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { SubscriptionPage } from './subscription.page';
+import { SubscriptionCardComponent } from '../components/subscription-card/subscription-card.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [SubscriptionPage]
+  declarations: [SubscriptionPage, SubscriptionCardComponent]
 })
 export class SubscriptionPageModule {}
