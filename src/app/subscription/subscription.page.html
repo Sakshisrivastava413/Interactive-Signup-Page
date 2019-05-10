@@ -3,9 +3,7 @@
 <div class="heading">Subscribe To Continue The Journey</div>
 <div class="sub-heading">Enjoy access to sessions to improvise health, focus and more</div>
 <div class="card-list">
-  <app-subscription-card></app-subscription-card>
-  <app-subscription-card></app-subscription-card>
-  <app-subscription-card></app-subscription-card>
+  <app-subscription-card *ngFor="let info of cardInfo" [duration]="info.duration" [price]="info.price"></app-subscription-card>
 </div>
 </div>
 </ion-content>
