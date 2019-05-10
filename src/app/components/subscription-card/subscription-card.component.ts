@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-subscription-card',
@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SubscriptionCardComponent implements OnInit {
 
+  @Input() duration: String;
+  @Input() price: Number;
+  
   constructor() { }
 
   ngOnInit() {}
