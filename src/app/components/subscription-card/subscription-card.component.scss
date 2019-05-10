@@ -1,0 +1,25 @@
+.card-container {
+  --background: var(--ion-color-primary-contrast);
+  height: 20vh;
+  margin-bottom: 20px;
+  border-radius: 15px 50px 30px;
+  border-left: 2px solid var(--ion-color-primary);
+  border-right: 2px solid var(--ion-color-primary);
+  padding: 16px;
+  font-size: 1.2em;
+  width: 95%;
+  color: var(--ion-color-primary-dark)
+}
+
+.card-header {
+  font-size: 25px;
+  display:inline-block;
+}
+
+.price {
+  font-size: 17px;
+  right: 14px;
+  top: 19px;
+  position: absolute
+
+}
